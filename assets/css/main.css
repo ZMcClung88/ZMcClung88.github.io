@@ -2404,6 +2404,17 @@ body.is-touch .main {
 }
 
 @media screen and (max-width: 480px) {
+  #header {
+    display: flex;
+  }
+
+  #nav-img {
+    display: flex;
+    align-self: center;
+    height: 100%;
+    width: 75px;
+  }
+
   #contact .box {
     padding: 1em 1em 2em 1em;
   }
