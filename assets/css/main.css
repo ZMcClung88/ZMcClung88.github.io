@@ -2398,6 +2398,17 @@ body.is-touch .main {
 }
 
 @media screen and (max-width: 736px) {
+  #header {
+    display: flex;
+  }
+
+  #nav-img {
+    display: flex;
+    align-self: center;
+    height: 100%;
+    width: 75px;
+  }
+
   #contact .box {
     padding: 1.5em 1.5em 2em 1.5em;
   }
